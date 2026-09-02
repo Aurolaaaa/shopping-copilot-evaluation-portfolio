@@ -1,0 +1,20 @@
+{
+  "dashboard_id": "evaluation-copilot-v1",
+  "agent_commit": "4dab398a82b399076b7d201009ea9ab3bdc7909a",
+  "official_sessions": 200,
+  "synthetic_new_target_protocol": "official_evaluator_protocol_v2",
+  "synthetic_new_target_sessions": 480,
+  "synthetic_new_targets": 120,
+  "synthetic_results_updated": "2026-09-02",
+  "result_boundaries": [
+    "official_public_200",
+    "self_built_new_target_official_evaluator_protocol",
+    "legacy_custom_dialogue_robustness"
+  ],
+  "contains_catalog_rows": false,
+  "contains_raw_conversations": false,
+  "contains_local_paths": false,
+  "contains_secrets": false,
+  "runtime_api_required": false,
+  "model_download_required": false
+}
