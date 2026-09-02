@@ -93,7 +93,7 @@ export function LandingPage({ onExplore }: { onExplore: () => void }) {
   const t = copy[language]
   return <div className={`landing-page ${language === 'zh' ? 'is-zh' : ''}`} lang={language === 'zh' ? 'zh-CN' : 'en'}>
     <header className="landing-nav">
-      <strong>Evaluation Copilot</strong>
+      <strong>Evaluation Copilot by Liang Xuanmian (Aurola L.)</strong>
       <div className="landing-nav-actions"><span className="event-name">TikTok TechJam 2026</span><div className="language-toggle" role="group" aria-label="Language"><button className={language === 'zh' ? 'active' : ''} onClick={()=>setLanguage('zh')} aria-pressed={language === 'zh'}>中文</button><button className={language === 'en' ? 'active' : ''} onClick={()=>setLanguage('en')} aria-pressed={language === 'en'}>English</button></div><DashboardButton language={language} onExplore={onExplore}/></div>
     </header>
 
